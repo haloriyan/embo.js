@@ -1,0 +1,64 @@
+.atas {
+	position: fixed;
+	top: 0px;left: 0px;right: 0px;
+	line-height: 56px;
+	z-index: 1;
+}
+#tblMenu {
+	float: left;
+	margin-left: 5%;
+	font-size: 28px;
+	cursor: pointer;
+}
+.judul {
+	float: left;
+	margin: 0;
+	margin-left: 5%;
+	font-size: 20px;
+	font-family: OLight;
+}
+.menu {
+	position: fixed;
+	top:56px;left: 0px;bottom: 0px;
+	width: 25%;
+	background-color: #fff;
+	border-right: 1px solid #ccc;
+}
+.menu a {
+	text-decoration: none;
+	color: #555;
+}
+.menu li {
+	list-style: none;
+	line-height: 60px;
+}
+.menu li ul {
+	display: none;
+}
+.menu li:hover ul { display: block; }
+.menu li i {
+	float: right;
+	font-size: 25px;
+	margin-top: 16px;
+}
+.container {
+	position: absolute;
+	top: 56px;left: 25%;right: 0px;
+	bottom: 0px;
+	color: #444;
+}
+.container h2 {
+	font-size: 35px;
+}
+.container p {
+	font-size: 20px;
+	line-height: 38px;
+	font-family: OLight;
+}
+.code {
+	background-color: #ecf0f1;
+	padding: 15px 25px 19px 25px;
+	font-size: 20px;
+	font-family: OLight;
+	border: 1px solid #bbb;
+}

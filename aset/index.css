@@ -1,0 +1,23 @@
+.container {
+	position: absolute;
+	top: 126px;left: 10%;
+	width: 80%;
+	color: #555;
+}
+.container h1 {
+	font-size: 60px;
+	font-family: OBold;
+}
+.container h2 {
+	font-size: 26px;
+	font-family: OLight;
+	margin-bottom: 115px;
+}
+.container a {
+	text-decoration: none;
+	color: #555;
+}
+nav li {
+	display: inline-block;
+	padding: 6px 35px 10px 35px;
+}
