@@ -64,8 +64,9 @@
 				&lt;div id="area"&gt;<br />
 				&lt;/div&gt;<br />
 				&lt;script&gt;<br />
-				&nbsp; &nbsp; &nbsp; &nbsp; var respon = ambil("aksi.php");<br />
-				&nbsp; &nbsp; &nbsp; &nbsp; tulis("#area", respon);<br />
+				&nbsp; &nbsp; &nbsp; &nbsp; ambil("url.php", function(respon) {<br />
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; tulis("#area", respon);<br />
+				&nbsp; &nbsp; &nbsp; &nbsp; });<br />
 				&lt;/script&gt;
 			</div>
 		</p>
